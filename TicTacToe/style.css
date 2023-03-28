@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation {
+    height: 60px;
+    background-color:#1e1e1e;
+    color: rgb(167, 241, 248);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Marhey', cursive;
+    letter-spacing: 0.5px;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.gamecontainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.box {
+    padding: 40px;
+    height: 3vh;
+    width: 2vw;
+    color:  rgb(3, 64, 102);
+    border: 2px solid black;
+}
+
+.box:hover {
+    padding: 40px;
+    height: 3vh;
+    width: 2vw;
+    color: rgb(251, 252, 252);
+    background-color: rgba(187, 230, 246, 0.849);
+}
+
+.boxtext {
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Marhey', cursive;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
+
+.gameinfo {
+    height: 45%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.infotext {
+    padding: 20px;
+    font-size: 2vw;
+    line-height: 2px;
+}
+
+.infohead {
+    color: rgb(5, 59, 106);
+    font-size: 4vw;
+    width: 100%;
+    align-self: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.celebration img {
+    padding: 30px;
+    width: 0px;
+    transition: width 2s ease-in-out;
+}
+
+#reset {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 2px;
+    color: rgb(5, 0, 5);
+    background-color: rgba(232, 239, 241, 0.996);
+    border: 2px solid rgb(17, 0, 17);
+    border-radius: 4px;
+}
+
+#reset:hover {
+    color: rgb(5, 32, 106);
+    background-color: rgba(187, 229, 246, 0.996);
+    border: 2px solid rgb(5, 56, 106);
+
+}
